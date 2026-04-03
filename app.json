@@ -17,13 +17,15 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.imraanbangaal1.mynewapp",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
-    },
+      "foregroundImage": "./assets/images/adaptive-icon.png",
+      "backgroundColor": "#ffffff"
+  },
+  "edgeToEdgeEnabled": true,
+  "predictiveBackGestureEnabled": false
+},
+
     "web": {
       "bundler": "metro",
       "output": "static",
@@ -36,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4eb12302-1c9f-4935-baad-a4da7f79322c"
+      }
     }
   }
 }
